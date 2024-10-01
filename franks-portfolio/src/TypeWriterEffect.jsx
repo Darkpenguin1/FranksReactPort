@@ -2,9 +2,9 @@ import { Typewriter } from 'react-simple-typewriter';
 
 function TypeWriterEffect(){
     return <div className='text-center p-4 max-w-lg mx-auto'>
-        <div className='text-4xl font-bold'>
+        <div className='text-6xl font-bold'>
             <Typewriter
-            words={["Hi, I'm Frank! ", "Hola, Soy Fran!"]}
+            words={["Hi, I'm Frank!", "Hola, Soy Fran!"]}
             loop={2} // Number of times to loop the animation (use 0 for infinite loop)
             cursor
             cursorStyle='|'
