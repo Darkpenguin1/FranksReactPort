@@ -1,4 +1,4 @@
-import { useState} from 'react';
+import { useState, useEffect} from 'react';
 import { Menu, X } from "lucide-react";
 
 function NavBar(){
@@ -8,7 +8,7 @@ function NavBar(){
         setIsOpen(!isOpen);
     };
     
-
+    
     return (
         <nav>
             <div className="flex items-center justify-between p-4 px-2 sm:px-6 lg:px-8 flex-wrap">
@@ -30,7 +30,7 @@ function NavBar(){
                     <button onClick={toggleNav}>{isOpen ? <X/> : <Menu/>}</button>
                 </div>
                 {isOpen && (
-                    <div className='small:hidden flex flex-col items-center basis-full'>
+                    <div className='sm:hidden flex flex-col items-center basis-full'>
                         <a href="#" className="p-2">About</a>
                         <a href="#" className="p-2">Skills</a>
                         <a href="#" className="p-2">Experience</a>
