@@ -2,6 +2,7 @@ import './App.css'
 import NavBar from './NavBar'
 import Hero from './Hero'
 import About from './About'
+import Skills from './Skills'
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <Hero></Hero>
+      <Skills></Skills>
       <About></About>
     </>
   )
