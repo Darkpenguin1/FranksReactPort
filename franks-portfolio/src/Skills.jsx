@@ -4,19 +4,26 @@ import { SiJavascript, SiTailwindcss, SiMongodb, SiMicrosoftazure, SiCplusplus, 
 
 function Skills(){
   const techStackArr = [
-    { name: 'React', icon: <FaReact size={40} className="text-gray-500 group-hover:text-[#61DAFB] transition duration-300" /> },
-    { name: 'Azure', icon: <SiMicrosoftazure size={40} className="text-gray-500 group-hover:text-[#008AD7] transition duration-300" /> },
-    { name: 'JavaScript', icon: <SiJavascript size={40} className="text-gray-500 group-hover:text-[#F0DB4F] transition duration-300" /> },
-    { name: 'HTML', icon: <FaHtml5 size={40} className="text-gray-500 group-hover:text-[#E34F26] transition duration-300" /> },
+    // Programming languages!
     { name: 'Java', icon: <FaJava size={40} className="text-gray-500 group-hover:text-[#2A5D88] transition duration-300" /> },
     { name: 'Python', icon: <FaPython size={40} className="text-gray-500 group-hover:text-[#FCD116] transition duration-300" /> },
+    { name: 'JavaScript', icon: <SiJavascript size={40} className="text-gray-500 group-hover:text-[#F0DB4F] transition duration-300" /> },
     { name: 'C++', icon: <SiCplusplus size={40} className="text-gray-500 group-hover:text-[#007ACC] transition duration-300" /> },
+    { name: 'HTML', icon: <FaHtml5 size={40} className="text-gray-500 group-hover:text-[#E34F26] transition duration-300" /> },
+
+    // Framewrks
+    { name: 'React', icon: <FaReact size={40} className="text-gray-500 group-hover:text-[#61DAFB] transition duration-300" /> },
+    { name: 'Django', icon: <SiDjango size={40} className="text-gray-500 group-hover:text-[#00683A] transition duration-300" /> },
+    { name: 'Flask', icon: <SiFlask size={40} className="text-gray-500 group-hover:text-[#555555] transition duration-300" /> },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss size={40} className="text-gray-500 group-hover:text-[#38BDF8] transition duration-300" /> },
+    
+    // Developer Tools
+    { name: 'Azure', icon: <SiMicrosoftazure size={40} className="text-gray-500 group-hover:text-[#008AD7] transition duration-300" /> },
     { name: 'Git', icon: <FaGitAlt size={40} className="text-gray-500 group-hover:text-[#F05033] transition duration-300" /> },
     { name: 'Linux', icon: <FaLinux size={40} className="text-gray-500 group-hover:text-[#FFD100] transition duration-300" /> },
-    { name: 'Tailwind CSS', icon: <SiTailwindcss size={40} className="text-gray-500 group-hover:text-[#38BDF8] transition duration-300" /> },
-    { name: 'Flask', icon: <SiFlask size={40} className="text-gray-500 group-hover:text-[#555555] transition duration-300" /> },
-    { name: 'Django', icon: <SiDjango size={40} className="text-gray-500 group-hover:text-[#00683A] transition duration-300" /> },
-  ];
+     
+    
+    ];
     return (
   
     <div className="flex flex-col items-center justify-center py-10">
