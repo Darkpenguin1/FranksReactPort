@@ -26,7 +26,7 @@ function Skills(){
     ];
     return (
   
-    <div className="flex flex-col items-center justify-center py-10">
+    <div className="flex flex-col items-center justify-center pb-7">
       <div className='container mx-auto'>
         <h1 className="text-center p-4 text-4xl font-bold">My Technical Skills</h1>
         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6'>
