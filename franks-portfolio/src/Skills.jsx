@@ -19,9 +19,9 @@ function Skills(){
   ];
     return (
   
-    <div className="flex flex-col items-center justify-center py-10">
+    <div className="flex flex-col items-center justify-center py-6">
       <div className='container mx-auto'>
-        <h1 className="text-center p-4 text-4xl font-bold">My Technical Skills</h1>
+        <h1 className="text-center mb-8 pb-4 text-4xl font-bold border-b border-black border-solid">My Technical Skills</h1>
         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6'>
             {techStackArr.map((tech, index) => (
               <div key={index} className='flex flex-col items-center p-4 bg-white rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 group'>
