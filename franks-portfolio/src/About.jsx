@@ -2,9 +2,9 @@
 import { Typewriter } from 'react-simple-typewriter';
 function About() {
     return (
-      <section className="bg-black text-white py-6 px-6 mt-6" id="about">
+      <section className="bg-white text-black py-6 px-6 mt-3" id="about">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4 text-white">
+          <h2 className="text-4xl font-bold mb-10 text-black">
           <Typewriter
               words={["Who am I?", "¿Quién soy yo?"]}
               loop={0} 
