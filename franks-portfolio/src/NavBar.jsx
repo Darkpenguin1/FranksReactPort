@@ -7,6 +7,14 @@ function NavBar(){
     const toggleNav = () => {
         setIsOpen(!isOpen);
     };
+
+    const handleScroll = (id) => {
+      const section = document.getElementById(id);
+			if (section) {
+				section.scrollIntoView({ behavior : 'smooth' })
+			};
+
+    };
     
     
     return (
@@ -20,8 +28,8 @@ function NavBar(){
 
                 {/* Desktop menu */}
                 <div className="hidden sm:flex sm:items-center sm:justify-end space-x-4">
-                    <a href="#" className="p-2">About</a>
-                    <a href="#" className="p-2">Skills</a>
+                    <a onClick={() => handleScroll('about')} href="#" className="p-2">About</a>
+                    <a onClick={() => handleScroll('skills')} href="#" className="p-2">Skills</a>
                     <a href="#" className="p-2">Experience</a>
                     <a href="#" className="p-2">Contact</a>
                     <a href="#" className="p-2">Resume</a>
@@ -31,8 +39,8 @@ function NavBar(){
                 </div>
                 {isOpen && (
                     <div className='sm:hidden flex flex-col items-center basis-full'>
-                        <a href="#" className="p-2">About</a>
-                        <a href="#" className="p-2">Skills</a>
+                        <a onClick={() => handleScroll('about')} href="#" className="p-2">About</a>
+                        <a onClick={() => handleScroll('skills')} href="#" className="p-2">Skills</a>
                         <a href="#" className="p-2">Experience</a>
                         <a href="#" className="p-2">Contact</a>
                         <a href="#" className="p-2">Resume</a>
