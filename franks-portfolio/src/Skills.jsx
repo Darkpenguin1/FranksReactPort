@@ -26,7 +26,7 @@ function Skills(){
     ];
     return (
   
-    <div className="flex flex-col items-center justify-center py-10">
+    <section className="flex flex-col items-center justify-center py-6" id="skills">
       <div className='container mx-auto'>
         <h1 className="text-center mb-8 pb-6 text-4xl font-bold border-b border-black border-solid">My Technical Skills</h1>
         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6'>
@@ -38,7 +38,7 @@ function Skills(){
             ))}
         </div>
       </div>
-    </div>
+    </section>
     
     );
 }
