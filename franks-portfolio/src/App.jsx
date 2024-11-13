@@ -5,6 +5,7 @@ import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
 import Contact from './Contact'
+import Experience from './Experience'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Hero></Hero>
       <About></About>
       <Skills></Skills>
+      <Experience></Experience>
       <Projects></Projects>
       <Contact></Contact>
     </>
