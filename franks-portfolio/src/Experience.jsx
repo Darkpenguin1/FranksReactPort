@@ -8,6 +8,7 @@ function Experience() {
             {/* MecklenBurg County */}
             <div className="bg-white shadow-lg rounded-lg p-6">
               <h3 className="text-2xl font-semibold text-gray-900">IT Intern</h3>
+              
               <p className="text-lg text-gray-700">Mecklenburg County Government</p>
               <div className="flex justify-between text-gray-500">
                 <span>Charlotte, NC</span>
